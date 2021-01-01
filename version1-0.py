@@ -27,7 +27,7 @@ else:
         # For area of Rectangle
         if cmd == 3:
             print(length * breath)
-        #For perimeter of Ractangle
+        # For perimeter of Rectangle
         else:
             print(2 * (length + breath))
     else:
