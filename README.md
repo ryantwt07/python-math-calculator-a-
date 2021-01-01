@@ -1,10 +1,10 @@
 # Python Math Calculator.
 
-## Maintaniers
+## Maintainers
 
 This math calculator is maintained by CodeAsherPlayz.
 
-## Sotware
+## Software
 
 In order to run this software, you will need:
 
