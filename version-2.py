@@ -41,7 +41,7 @@ else:
         if cmd == 5:
             print(3.14 * (radius * radius))
         elif cmd == 6:
-            print(3.14 * radius)
+            print(2 * radius)
         elif cmd == 7:
             print(3.14 * (radius * 2))
     elif cmd == 8:
