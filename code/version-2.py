@@ -17,7 +17,7 @@ except ValueError:
 else:
     # Newline
     print()
-    # For Commad Lines 1 and 2
+    # For Command Lines 1 and 2
     if cmd in [1, 2]:
         length = float(input("Enter length of sides of Square: "))
         # For Command 1
@@ -59,10 +59,10 @@ else:
         side3 = float(input("Enter third side of triangle: "))
         print(side + side2 + side3)
     # For Command 10,11
-    elif cmd in [10,11]:
+    elif cmd in [10, 11]:
         a = float(input("Enter base of trapezium: "))
         b = float(input("Enter top length of trapezium: "))
-        height = float(input("Enter height of trapezim: "))]
+        height = float(input("Enter height of trapezim: "))
         # For Command 10
         if cmd == 10:
             print(0.5 * (a + b) * height)
