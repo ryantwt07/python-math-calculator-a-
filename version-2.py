@@ -49,10 +49,10 @@ else:
         height = float(input("Enter height of triangle: "))
         print(0.5 * base * height)
     elif cmd == 9:
-        base = float(input("Enter base of triangle: "))
-        base2 = float(input("Enter base 2 of triangle: "))
-        base3 = float(input("Enter base 3 of triangle: "))
-        print(base1 + base2 + base3)
+        side = float(input("Enter side of triangle: "))
+        side2 = float(input("Enter second side of triangle: "))
+        side3 = float(input("Enter third side of triangle: "))
+        print(side + side2 + side3)
     elif cmd in [10,11]:
         a = float(input("Enter base of trapezium: "))
         b = float(input("Enter top length of trapezium: "))
