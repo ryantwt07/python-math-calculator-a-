@@ -1,3 +1,4 @@
+from math import pi
 try:
     # Take Input Command
     cmd = int(input("""
@@ -5,9 +6,9 @@ Enter 1 for Area of Square
 Enter 2 for Perimeter of Square
 Enter 3 for Area of Rectangle
 Enter 4 for Perimeter of Rectangle
-Enter 5 for Area of Circle (pi will be 3.14)
-Enter 6 for Diameter of Circle (pi will be 3.14)
-Enter 7 for Circumference of Circle (pi will be 3.14)
+Enter 5 for Area of Circle
+Enter 6 for Diameter of Circle
+Enter 7 for Circumference of Circle
 Enter 8 for Area of Triangle
 Enter 9 for Perimeter of Triangle
 Enter 10 for Area of Trapezium
@@ -38,15 +39,30 @@ else:
     # For Command 5,6,7
     elif cmd in [5, 6, 7]:
         radius = float(input("Enter radius of circle: "))
+        pichoice = input("3.14 Pi, 22/7 Pi or Calculator Pi: ")
         # For Command 5
         if cmd == 5:
-            print(3.14 * (radius * radius))
+            if pichoice == "3.14 Pi":
+                print(3.14 * (radius * radius))
+            elif pichoice == "22/7 Pi":
+                print((22 / 7) * (radius * radius)
+            elif pichoice == "Calculator Pi":
+                print(pi * (radius * radius)
+            else:
+                print("You have entered in a invalid Pi")
         # For Command 6
         elif cmd == 6:
             print(2 * radius)
         # For Command 7
         else:
-            print(3.14 * (radius * 2))
+            if pichoice == "3.14 Pi":
+                print(3.14 * (radius * 2))
+            elif pichoice == "22/7 Pi":
+                print((22 / 7) * (radius * 2))
+            elif pichoice == "Calculator Pi":
+                print(pi * (radius * 2))
+            else:
+                print("You have entered in a invalid Pi")
     # For Command 8
     elif cmd == 8:
         base = float(input("Enter base of triangle: "))
