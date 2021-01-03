@@ -1,24 +1,44 @@
 try:
     # Take Input Command
-    cmd = int(input("""
-Enter 1 for Area of Square
-Enter 2 for Perimeter of Square
-Enter 3 for Area of Rectangle
-Enter 4 for Perimeter of Rectangle
-Enter 5 for Area of Circle (pi will be 3.14)
-Enter 6 for Diameter of Circle (pi will be 3.14)
-Enter 7 for Circumference of Circle (pi will be 3.14)
-Enter 8 for Area of Triangle
-Enter 9 for Perimeter of Triangle
-Enter 10 for Area of Trapezium
->>> """))
+    maincmd = int(input("""
+    Enter 1 for Area and Perimeter
+    Enter 2 for Angles
+    Enter 3 for Matrix
+    >>> """
 except ValueError:
     print("You have entered an invalid input. Please try again.")
-else:
+
+if maincmd == 1:
+    try:
+        cmd = int(input("""
+    Enter 1 for Area of Square
+    Enter 2 for Perimeter of Square
+    Enter 3 for Area of Rectangle
+    Enter 4 for Perimeter of Rectangle
+    Enter 5 for Area of Circle (pi will be 3.14)
+    Enter 6 for Diameter of Circle (pi will be 3.14)
+    Enter 7 for Circumference of Circle (pi will be 3.14)
+    Enter 8 for Area of Triangle
+    Enter 9 for Perimeter of Triangle
+    Enter 10 for Area of Trapezium
+    >>> """))
+    except ValueError:
+        print("You have entered an invalid input. Please try again.")
+elif maincmd == 2:
+    try:
+       cmd = int(input("""
+    Enter 1 for Angle about a Triangle
+    Enter 2 for Angle about a Parrelalogram
+    Enter 3 for Angle about a Trapezium
+    Enter 4 for Angle about a Polygon
+    >>> """
+
+# Systems
     # Newline
     print()
     # For Command Lines 1 and 2
-    if cmd in [1, 2]:
+    if maincmd == 1:
+      if cmd in [1, 2]:
         length = float(input("Enter length of sides of Square: "))
         # For Command 1
         if cmd == 1:
