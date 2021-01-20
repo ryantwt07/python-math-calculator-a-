@@ -11,6 +11,7 @@ Enter 7 for Circumference of Circle (pi will be 3.14)
 Enter 8 for Area of Triangle
 Enter 9 for Perimeter of Triangle
 Enter 10 for Area of Trapezium
+Enter 11 for Addition of two 2x2 matrix 
 >>> """))
 except ValueError:
     print("You have entered an invalid input. Please try again.")
@@ -59,7 +60,7 @@ else:
         side3 = float(input("Enter third side of triangle: "))
         print(side + side2 + side3)
     # For Command 10,11
-    elif cmd in [10, 11]:
+    elif cmd == 10:
         a = float(input("Enter base of trapezium: "))
         b = float(input("Enter top length of trapezium: "))
         height = float(input("Enter height of trapezim: "))
@@ -70,6 +71,30 @@ else:
         else:
             width = float(input("Enter width of trapezium: "))
             print((0.5 * (a + b) * height) * width)
+    elif cmd == 11:
+
+        n11 = float(input("Enter the element of 1st column and 1st row of 1st matrix : "))
+        n12 = float(input("Enter the element of 2nd column and 1st row of 1st matrix : "))
+        n21 = float(input("Enter the element of 1st column and 2nd row of 1st matrix : "))
+        n22 = float(input("Enter the element of 2nd column and 2nd row of 1st matrix : "))
+        m11 = float(input("Enter the element of 1st column and 1st row of 2nd matrix : "))
+        m12 = float(input("Enter the element of 2nd column and 1st row of 2nd matrix : "))
+        m21 = float(input("Enter the element of 1st column and 2nd row of 2nd matrix : "))
+        m22 = float(input("Enter the element of 2nd column and 2nd row of 2nd matrix : "))      #Inputing the elements of the matrixes
+
+        X = [[n11,n12],[n21,n22]]
+        Y = [[m11,m12],[m21,m22]]
+        result = [[0, 0],[0,0]]
+                                        
+         # iterate through rows
+        for i in range(len(X)):
+            # iterate through columns
+            for j in range(len(X[0])):
+                result[i][j] = X[i][j] + Y[i][j]
+
+        for r in result:
+            print(r)
+
     # Invalid Input Statement
     else:
         print("You have entered in an invalid input. Please try again.")
