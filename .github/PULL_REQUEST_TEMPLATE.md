@@ -6,7 +6,8 @@ Remember, you can preview this before saving it.
 
 ### First time contributor checklist:
 
-- [ ] I have read the [README](https://github.com/signalapp/Signal-Desktop/blob/master/README.md) and [Contributor Guidelines](https://github.com/signalapp/Signal-Desktop/blob/master/CONTRIBUTING.md)
+- [ ] I have read the [README](https://github.com/PythonMathCalculator/python-math-calculator/blob/master/README.md) and [Contributor Guidelines](https://github.com/PythonMathCalculator/python-math-calculator/blob/master/CONTRIBUTING.md)
+- [ ] I have signed the CLA (Contributor License Agreement).
 
 ### Contributor checklist:
 
@@ -14,6 +15,8 @@ Remember, you can preview this before saving it.
 - [ ] My commits have been verified and signed by GitHub.
 - [ ] My commits are not repeated and should be the only one in this repository,
 - [ ] My commits should not in any shape, way or form, breach any Terms of Conditions of GitHub
+- [ ] All committers have signed the CLA.
+= [ ] All commits must pass the CLA check and other checks provided.
 
 ### Description
 
