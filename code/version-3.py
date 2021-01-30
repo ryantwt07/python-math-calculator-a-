@@ -11,11 +11,11 @@ Enter 7 for Circumference of Circle (pi will be 3.14)
 Enter 8 for Area of Triangle
 Enter 9 for Perimeter of Triangle
 Enter 10 for Area of Trapezium
-Enter 11 for Addition of Two 2x2 Matrixes
+Enter 11 for Addition of Two 2x2 Matrix
 Enter 12 for Usual Addition Calculations
-Enter 13 for Usual Subtration Calculations
+Enter 13 for Usual Subtraction Calculations
 Enter 14 for Usual Multiplication Calculations
-Enter 15 for Usual Division Calculcations
+Enter 15 for Usual Division Calculations
 >>> """))
 except ValueError:
     print("You have entered an invalid input. Please try again.")
@@ -67,7 +67,7 @@ else:
     elif cmd == 10:
         a = float(input("Enter base of trapezium: "))
         b = float(input("Enter top length of trapezium: "))
-        height = float(input("Enter height of trapezim: "))       
+        height = float(input("Enter height of trapezium: "))       
         if cmd == 10:
             print(0.5 * (a + b) * height)        
         else:
@@ -85,10 +85,10 @@ else:
         m21 = float(input("Enter the element of 1st column and 2nd row of 2nd matrix :"))
         m22 = float(input("Enter the element of 2nd column and 2nd row of 2nd matrix :"))  
 
-        X = [[n11,n12],[n21,n22]]
-        Y = [[m11,m12],[m21,m22]]
-        result = [[0, 0],[0,0]]
-         # Iterate Through Rows
+        X = [[n11, n12], [n21, n22]]
+        Y = [[m11, m12], [m21, m22]]
+        result = [[0, 0],[0, 0]]
+        # Iterate Through Rows
         for i in range(len(X)):
             # iterate through columns
             for j in range(len(X[0])):
