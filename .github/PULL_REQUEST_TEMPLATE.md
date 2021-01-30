@@ -6,7 +6,8 @@ Remember, you can preview this before saving it.
 
 ### First time contributor checklist:
 
-- [ ] I have read the [README](https://github.com/signalapp/Signal-Desktop/blob/master/README.md) and [Contributor Guidelines](https://github.com/signalapp/Signal-Desktop/blob/master/CONTRIBUTING.md)
+- [ ] I have read the [README](https://github.com/PythonMathCalculator/python-math-calculator/blob/master/README.md) and [Contributor Guidelines](https://github.com/PythonMathCalculator/python-math-calculator/blob/master/CONTRIBUTING.md)
+- [ ] I have signed the CLA (Contributor License Agreement).
 
 ### Contributor checklist:
 
