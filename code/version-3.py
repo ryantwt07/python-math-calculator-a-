@@ -11,7 +11,11 @@ Enter 7 for Circumference of Circle (pi will be 3.14)
 Enter 8 for Area of Triangle
 Enter 9 for Perimeter of Triangle
 Enter 10 for Area of Trapezium
-Enter 11 for Addition of two 2x2 Matrixes
+Enter 11 for Addition of Two 2x2 Matrixes
+Enter 12 for Usual Addition Calculations
+Enter 13 for Usual Subtration Calculations
+Enter 14 for Usual Multiplication Calculations
+Enter 15 for Usual Division Calculcations
 >>> """))
 except ValueError:
     print("You have entered an invalid input. Please try again.")
@@ -84,16 +88,30 @@ else:
         X = [[n11,n12],[n21,n22]]
         Y = [[m11,m12],[m21,m22]]
         result = [[0, 0],[0,0]]
-
-         # iterate through rows
+         # Iterate Through Rows
         for i in range(len(X)):
             # iterate through columns
             for j in range(len(X[0])):
                 result[i][j] = X[i][j] + Y[i][j]
-
         for r in result:
             print(r)
-
+    elif cmd in [12, 13, 14, 15]:
+        if cmd == 12:
+            num1 = float(input("Enter First Number: "))
+            num2 = float(input("Enter Second Number: "))
+            print(num1 + num2)
+        elif cmd == 13:
+            num1 = float(input("Enter First Number: "))
+            num2 = float(input("Enter Second Number: "))
+            print(num1 - num2)
+        elif cmd == 14:
+            num1 = float(input("Enter First Number: "))
+            num2 = float(input("Enter Second Number: "))
+            print(num1 * num2)
+        else:
+            num1 = float(input("Enter First Number: "))
+            num2 = float(input("Enter Second Number: "))
+            print(num1 / num2)
     # Invalid Input Statement
     else:
         print("You have entered in an invalid input. Please try again.")
