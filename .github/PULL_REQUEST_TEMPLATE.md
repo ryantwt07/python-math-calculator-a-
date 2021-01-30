@@ -15,6 +15,8 @@ Remember, you can preview this before saving it.
 - [ ] My commits have been verified and signed by GitHub.
 - [ ] My commits are not repeated and should be the only one in this repository,
 - [ ] My commits should not in any shape, way or form, breach any Terms of Conditions of GitHub
+- [ ] All committers have signed the CLA.
+= [ ] All commits must pass the CLA check and other checks provided.
 
 ### Description
 
