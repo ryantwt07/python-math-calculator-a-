@@ -20,3 +20,6 @@ P.S. We suggest that you use PyCharm.
 
 We run on a contributing basis. Inside the Main Branch, you can help to update our Version updates. After we have completed with the Version Updates, we will release them in the Releases section.
 
+## Status
+
+![Python Package](https://github.com/PythonMathCalculator/python-math-calculator/workflows/Python%20Package/badge.svg?branch=master)
