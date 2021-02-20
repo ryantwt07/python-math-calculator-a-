@@ -1,4 +1,3 @@
-
 Thanks for contributing to the project!
 Please help us keep this project in good shape by going through this checklist.
 Replace the empty checkboxes [ ] below with checked ones [X] as they are completed
@@ -30,8 +29,7 @@ Does it address any outstanding issues in this project?
 
 Tests Necessary to Pass:
 
-- [ ] Python Package 
+- [ ] CodeFactor
 - [ ] CLA Test
-- [ ] Python Interpreter
   
   <!-- (c) 2021 Signal. This pull request template has been modified for use in this repository from the GitHub Signal Repository. -->
