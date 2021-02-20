@@ -2,35 +2,40 @@
 name: Custom Issues
 about: This template can be used for custom issues!
 title: "[CUS] - "
-labels: Custom Issues
+labels: Custom Issues, Good First Issue
 assignees: AdithyaR07
 
 ---
 
-First-Time Contributor Checklist
+Thanks for contributing to the project!
+Please help us keep this project in good shape by going through this checklist.
+Replace the empty checkboxes [ ] below with checked ones [X] as they are completed
+Remember, you can preview this before saving it.
 
-- [ ] You have signed the CLA (Contributor License Agreement).
-- [ ] You have read README and the Contributing Guidelines.
+### New Contributors Checklist:
 
-Contributor Checklist
+- [ ] I have read the [README](https://github.com/PythonMathCalculator/python-math-calculator/blob/master/README.md) and [Contributor Guidelines](https://github.com/PythonMathCalculator/python-math-calculator/blob/master/CONTRIBUTING.md)
+- [ ] I have signed the CLA (Contributor License Agreement).
 
-- [ ] This issue should be the only one issue present about the topic.
-- [ ] This issue's title and description are in nice logical chunks.
-- [ ] All contributors to this issue should have signed the CLA and the CLA check in this issue must pass.
-- [ ] All checks that have been provided in this issue must pass.
+### Contributor Checklist:
 
-**What is the issue?**
+- [ ] My issue has good issue headers.
+- [ ] My issue has been mentioned by any of the moderators of this repository.
+- [ ] My issue is not repeated and should be the only one in this repository,
+- [ ] My issue should not in any shape, way or form, breach any Terms of Conditions of GitHub or any rule that has been invoked in the repository.
 
-Enter a Description on the Issue.
+### Description
 
-**How can it be fixed**
+Describe briefly what your issue changes. Focus on the value provided to users.
 
-How do you want us to fix it? Please note that sometimes we might fix it without following what you wanted.
+Does it address any outstanding issues in this project?
 
-**Additional Context**
+  <!-- https://github.com/PythonMathCalculator/python-math-calculator/issues?utf8=%E2%9C%93&q=is%3Aissue
+  Reference an issue with the hash symbol: "#222"
+  If you're fixing it, use something like "Fixes #222" -->
 
-Do you have any additional context?
+Tests Necessary to Pass:
 
-**Linking Pull Request or Issues**
+- [ ] CLA Test
 
-Are there any pull requests that are associated with this issue. If there is, you should add it here. E.g. 'fixes #23'.
+  <!-- (c) 2021 Signal. This pull request template has been modified for use in this repository from the GitHub Signal Repository. -->

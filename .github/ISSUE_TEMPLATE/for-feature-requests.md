@@ -2,43 +2,40 @@
 name: For Feature Requests
 about: Use this template for feature request.
 title: "[FTU] - "
-labels: Feature Request
+labels: Feature Request, Good First Issue
 assignees: AdithyaR07
 
 ---
 
-First-Time Contributor Checklist
+Thanks for contributing to the project!
+Please help us keep this project in good shape by going through this checklist.
+Replace the empty checkboxes [ ] below with checked ones [X] as they are completed
+Remember, you can preview this before saving it.
 
-- [ ] You have signed the CLA (Contributor License Agreement).
-- [ ] You have read README and the Contributing Guidelines.
+### New Contributors Checklist:
 
-Contributor Checklist
+- [ ] I have read the [README](https://github.com/PythonMathCalculator/python-math-calculator/blob/master/README.md) and [Contributor Guidelines](https://github.com/PythonMathCalculator/python-math-calculator/blob/master/CONTRIBUTING.md)
+- [ ] I have signed the CLA (Contributor License Agreement).
 
-- [ ] This issue should be the only one issue present about the topic.
-- [ ] This issue's title and description are in nice logical chunks.
-- [ ] All contributors to this issue should have signed the CLA and the CLA check in this issue must pass.
-- [ ] All checks that have been provided in this issue must pass.
+### Contributor Checklist:
 
-**Linking Pull Request or Issues**
+- [ ] My issue has good issue headers.
+- [ ] My issue has been mentioned by any of the moderators of this repository.
+- [ ] My issue is not repeated and should be the only one in this repository,
+- [ ] My issue should not in any shape, way or form, breach any Terms of Conditions of GitHub or any rule that has been invoked in the repository.
 
-Are there any pull requests that are associated with this issue. If there is, you should add it here. E.g. 'fixes #23'.
+### Description
 
-**Is your feature request related to a problem? Please describe.**
+Describe briefly what your issue changes. Focus on the value provided to users.
 
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+Does it address any outstanding issues in this project?
 
-**What is the feature request?**
+  <!-- https://github.com/PythonMathCalculator/python-math-calculator/issues?utf8=%E2%9C%93&q=is%3Aissue
+  Reference an issue with the hash symbol: "#222"
+  If you're fixing it, use something like "Fixes #222" -->
 
-Enter Here.
+Tests Necessary to Pass:
 
-**Describe the solution you'd like**
+- [ ] CLA Test
 
-A clear and concise description of what you want to happen.
-
-**Describe alternatives you've considered**
-
-A clear and concise description of any alternative solutions or features you've considered.
-
-**Additional context**
-
-Add any other context or screenshots about the feature request here.
+<!-- (c) 2021 Signal. This pull request template has been modified for use in this repository from the GitHub Signal Repository. -->
