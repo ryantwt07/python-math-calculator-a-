@@ -23,3 +23,5 @@ We run on a contributing basis. Inside the Main Branch, you can help to update o
 ## Status
 
 [![CodeFactor](https://www.codefactor.io/repository/github/pythonmathcalculator/python-math-calculator/badge)](https://www.codefactor.io/repository/github/pythonmathcalculator/python-math-calculator)
+
+[![Gitter](https://badges.gitter.im/PythonCalculator/community.svg)](https://gitter.im/PythonCalculator/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
